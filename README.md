@@ -1,3 +1,5 @@
 # Google-Data-Analytics-Portfolio-Project
 
-## hi
+# Introduction
+
+##For this project, I am a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago.
