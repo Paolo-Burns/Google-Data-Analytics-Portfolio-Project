@@ -58,7 +58,45 @@ The table below shows how many NULL values exist within each of the columns:
 ![NULLvalues](https://github.com/user-attachments/assets/677c9e96-bf63-4d63-a5e8-ec73981fe1a5)
 
 It's always important to check your primary key for any mistakes.
-In this data
+In this case, the primary key is the ride_id column and a quick check will tell you all values in the ride_id field are 16 characters in length with no NULL values.
+
+![pkquery](https://github.com/user-attachments/assets/d115200e-e97e-4127-9acb-42fe9a28d20d)
+![pkresult](https://github.com/user-attachments/assets/bba2cb5e-5bf3-40f0-aff7-0e8e7d47b53a)
+
+Next, a quick look at how many values exist in rideable type and if there are any typos that we need to fix.
+
+![biketypes](https://github.com/user-attachments/assets/4466bfbd-6363-402d-acf1-21c05ee01602)
+
+Only 3 distinct values exist for the rideable_type meaning that Cyclistic only offers these 3 bike types in their bike-sharing program: 
+Classic Bikes, Electric Bikes, and Electric Scooters.
+
+The same thing was done for the member_casual column which is the column that identifies whether the ride was taken by an annual member or a casual rider. 
+
+I found that only 2 distinct values exist: member & casual, also with no NULL values or typos.
+
+## Cleaning The Data
+SQL Query: [Data Cleaning](https://github.com/Paolo-Burns/Google-Data-Analytics-Portfolio-Project/blob/main/03.%20Data%20Cleaning.sql)
+
+After exploring the data I have a good idea of what needs to be cleaned up. For this project I will be dealing with NULL values by entirely removing any rows with NULL values. 
+
+To create the new cleaned table that will be used for analysis:
+
+1) 2 new columns are added to the select statement, day_of_week and month.
+2) A 3rd column, ride_length, is added through a JOIN with a SELECT statement that converts the difference in ended_at and started_at times into minutes.
+3) Rows containing NULL values are removed.
+4) Finally, any rows that have rides shorter than 1 minute or longer than a day are also removed resulting in a total of 4,168,157 rows indicating that 1,692,411 rows were removed.
 
 
+## Data Analysis
+SQL Query: [Data Analysis](https://github.com/Paolo-Burns/Google-Data-Analytics-Portfolio-Project/blob/main/04.%20Data%20Analysis.sql)
+
+![Screenshot 2025-06-27 175448](https://github.com/user-attachments/assets/ceb9d9e5-6b5e-46c4-a84d-571cf4cf5353)
+
+Classic Bikes are by far the most popular bike type making up 65.12% of total number of trips in 2024 while Electric scooters are by far the least popular with only 1.13%.
+
+Now let's see *who* is using which bikes:
+
+![Screenshot 2025-06-27 175410](https://github.com/user-attachments/assets/e462f4d9-1059-4bd7-b6e2-5272d64fa4fb)
+
+Across all bike types, there is a pretty even split between members and casuals, with members making up over half of classic and electric bike users. We can observe that there is no preference in bike type depending on the whether the rider is an annual member or casual rider. 
 
