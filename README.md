@@ -101,13 +101,42 @@ Now let's see *who* is using which bikes:
 Across all bike types, there is a pretty even split between members and casuals, with members making up over half of classic and electric bike users. We can observe that there is no preference in bike type depending on the whether the rider is an annual member or casual rider. 
 
 The total number of trips in 2024:
-Per Month
+
 
 ![tripspermonth](https://github.com/user-attachments/assets/a4589ad3-6581-40fb-8cfa-6ff87c0925eb)
 
 Both members and casuals follow a similar seasonal pattern throughout the year in which the total number of trips for both members and casual begins to rise in the spring. For casual riders the peak of their trips occurs in the summer while members peak in the early fall. After their respective peaks, both group's trip amounts decline as winter months approach. 
 
-Per Hour
+
 
 ![tripsperhour](https://github.com/user-attachments/assets/4d8304d2-cb87-4a54-bf11-8bd5d5dfc035)
+
+Here, the largest difference in behavior between the 2 groups thus far can be observed. Starting at around 6 AM annual member's total amount of trips begin to quickly increase, peaking at 8 AM. As the day progresses, both groups continue to steadily incline until about 5 PM where members hit another large spike, 5 PM represents the peak hour for total trips for both annual members and casual riders. After 5 PM there is a rapid decline for both groups. 
+
+The observations above lead to a couple inferences:
+
+1) Cyclistic's bike share program is much more popular in the spring, summer, and early fall when the weather is nice and warm.
+2) Members use Cyclistic the most during commute hours 8AM/5PM, perhaps to commute to and from work.
+
+Next, the average ride length was analyzed
+
+![lenpermonth](https://github.com/user-attachments/assets/a51c02f9-6e49-4ac7-8d94-a27a7f68f070)
+
+![lenperday](https://github.com/user-attachments/assets/e3d36b4a-53c5-45f9-a2a7-f984cf10efd6)
+
+
+![lenperhour](https://github.com/user-attachments/assets/fbc6b053-fe4c-47a0-aa4b-00ad40756f7b)
+
+Annual members show a consistent 10-15 minutes average ride length in all graphs while casual riders see a bit more fluctuation in ride length, casual rider's bike trips typically last 20-30 minutes.
+Regardless of what month, day, or hour it may be, casual riders have a higher average ride length than annual members, double in most cases.
+
+This could be for a handful of reasons:
+1) If annual members are using Cyclistic primarily to commute to and from work, then they must be close by (within 10-15 minutes). Anybody who is farther than 20 minutes probably uses a car to get to work, and anybody who lives closer than a 10 minute bike ride might walk to work.
+2) Casual Members ride length shoots up at around 10 AM and remains at nearly 30 minutes until 2 PM. This is typically the best weather during the day and when most people might be using a bike leisurely.
+
+This data supports the previous theory of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
+
+
+![startinglocations](https://github.com/user-attachments/assets/268c7b98-d4b8-4328-b61f-1fc473f736ef)
+![ending locations](https://github.com/user-attachments/assets/206981b7-e523-44e6-b14d-2360a6da957a)
 
