@@ -84,7 +84,7 @@ To create the new cleaned table that will be used for analysis:
 1) 2 new columns are added to the select statement, day_of_week and month.
 2) A 3rd column, ride_length, is added through a JOIN with a SELECT statement that converts the difference in ended_at and started_at times into minutes.
 3) Rows containing NULL values are removed.
-4) Finally, any rows that have rides shorter than 1 minute or longer than a day are also removed resulting in a total of 4,168,157 rows indicating that 1,692,411 rows were removed.
+4) Finally, any rows that have rides shorter than 1 minute or longer than a day are also removed resulting in a total of 4,168,157 rows indicating that 1,692,411 total rows were removed in the cleaning process.
 
 
 ## Data Analysis
@@ -99,4 +99,15 @@ Now let's see *who* is using which bikes:
 ![Screenshot 2025-06-27 175410](https://github.com/user-attachments/assets/e462f4d9-1059-4bd7-b6e2-5272d64fa4fb)
 
 Across all bike types, there is a pretty even split between members and casuals, with members making up over half of classic and electric bike users. We can observe that there is no preference in bike type depending on the whether the rider is an annual member or casual rider. 
+
+The total number of trips in 2024:
+Per Month
+
+![tripspermonth](https://github.com/user-attachments/assets/a4589ad3-6581-40fb-8cfa-6ff87c0925eb)
+
+Both members and casuals follow a similar seasonal pattern throughout the year in which the total number of trips for both members and casual begins to rise in the spring. For casual riders the peak of their trips occurs in the summer while members peak in the early fall. After their respective peaks, both group's trip amounts decline as winter months approach. 
+
+Per Hour
+
+![tripsperhour](https://github.com/user-attachments/assets/4d8304d2-cb87-4a54-bf11-8bd5d5dfc035)
 
