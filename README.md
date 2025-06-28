@@ -133,7 +133,7 @@ Regardless of what month, day, or hour it may be, casual riders have a higher av
 This could be for a handful of reasons:
 1) If annual members are using Cyclistic primarily to commute to and from work, then they must be close by (within 10-15 minutes). Anybody who is farther than 20 minutes probably uses a car to get to work, and anybody who lives closer than a 10 minute bike ride might walk to work.
 2) Casual Members ride length shoots up at around 10 AM and remains at nearly 30 minutes until 2 PM. This is typically the best weather during the day and when most people might be using a bike leisurely.
-3) The absence of a second spike in ride length later on in the day for casual riders strengthens the theory that casual riders are not using Cyclistic to get to work.
+3) The absence of a second spike in ride length later on in the day (to get home from work) for casual riders strengthens the theory that casual riders are not using Cyclistic to get to work.
 
 This data supports the previous theory of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
 
