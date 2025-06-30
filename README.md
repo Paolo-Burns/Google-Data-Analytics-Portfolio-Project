@@ -67,12 +67,14 @@ Next, a quick look at how many values exist in rideable type and if there are an
 
 ![biketypes](https://github.com/user-attachments/assets/4466bfbd-6363-402d-acf1-21c05ee01602)
 
-Only 3 distinct values exist for the rideable_type meaning that Cyclistic only offers these 3 bike types in their bike-sharing program: 
+Exploration Summary:
+
+- 5,860,568 total rows
+
+- Only 3 distinct values exist for the rideable_type meaning that Cyclistic only offers these 3 bike types in their bike-sharing program: 
 Classic Bikes, Electric Bikes, and Electric Scooters.
 
-The same thing was done for the member_casual column which is the column that identifies whether the ride was taken by an annual member or a casual rider. 
-
-I found that only 2 distinct values exist: member & casual, also with no NULL values or typos.
+- In the member_casual column, only 2 distinct values exist: member & casual.
 
 ## Cleaning The Data
 SQL Query: [Data Cleaning](https://github.com/Paolo-Burns/Google-Data-Analytics-Portfolio-Project/blob/main/03.%20Data%20Cleaning.sql)
@@ -137,7 +139,18 @@ This could be for a handful of reasons:
 
 This data supports the previous theory of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
 
+The following visualizations show which bike stations were used most frequently by Cyclistic users.
 
 ![startinglocations](https://github.com/user-attachments/assets/268c7b98-d4b8-4328-b61f-1fc473f736ef)
+
+- Casual riders start their rides more frequently along the coast where a large concetration of Chicago's parks are as well as the beaches and piers.
+- Annual members start their bike trips deeper in Chicago's business districts.
+- Note the point at the University of Illinois at Chicago. This indicates that annual memberships might be popular with students and/or university professors & staff.
+  
 ![ending locations](https://github.com/user-attachments/assets/206981b7-e523-44e6-b14d-2360a6da957a)
 
+- The ending station frequencies tell a similar story.
+- Note the 2 new southern points for annual members. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
+
+  Analysis Summary:
+  
