@@ -150,7 +150,7 @@ The following visualizations show which bike stations were used most frequently 
 ![ending locations](https://github.com/user-attachments/assets/206981b7-e523-44e6-b14d-2360a6da957a)
 
 - The ending station frequencies tell a similar story.
-- Note the 2 new southern points for annual members. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
+- Note the 2 southern points for annual members. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
 
   Analysis Summary:
   
