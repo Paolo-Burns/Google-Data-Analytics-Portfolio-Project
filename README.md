@@ -90,6 +90,7 @@ To create the new cleaned table that will be used for analysis:
 
 
 ## Data Analysis
+
 SQL Query: [Data Analysis](https://github.com/Paolo-Burns/Google-Data-Analytics-Portfolio-Project/blob/main/04.%20Data%20Analysis.sql)
 
 ![Screenshot 2025-06-27 175448](https://github.com/user-attachments/assets/ceb9d9e5-6b5e-46c4-a84d-571cf4cf5353)
