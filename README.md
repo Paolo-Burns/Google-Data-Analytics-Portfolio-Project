@@ -7,7 +7,7 @@ For this project, I am a junior data analyst working on the marketing analyst te
 
 ## Background
 
-Cyclistic is a bike-share program  with over 5,824 geotracked bicycles that are part of a large network of 692 stations across chicago. Users are able to pick up a bike from any station and then return it to any other station. Cyclistic's current marketing strategy relies on general awareness and appealing to broad consumers segments. Cyclistic achieved this by offering various pricing plans, such as single-ride passes, full-day passes, or annual memberships. 
+Cyclistic is a bike-share program  with over 5,824 geotracked bicycles that are part of a large network of 692 stations across Chicago. Users are able to pick up a bike from any station and then return it to any other station. Cyclistic's current marketing strategy relies on general awareness and appealing to broad consumer segments. Cyclistic achieved this by offering various pricing plans, such as single-ride passes, full-day passes, or annual memberships. 
 
 ## Scenario
 
@@ -19,7 +19,7 @@ Moreno has asked three main questions that will guide the future marketing progr
 
 1. How do annual member and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
-3. How can Cyclistic use digitial media to influence casual riders to become members?
+3. How can Cyclistic use digital media to influence casual riders to become members?
 
 #### Moreno has assigned me the first question to answer: How do annual member and casual riders use Cyclistic bikes <ins>differently</ins>?
 
@@ -108,13 +108,13 @@ The total number of trips in 2024:
 
 ![tripspermonth](https://github.com/user-attachments/assets/a4589ad3-6581-40fb-8cfa-6ff87c0925eb)
 
-Both members and casuals follow a similar seasonal pattern throughout the year in which the total number of trips for both members and casual begins to rise in the spring. For casual riders the peak of their trips occurs in the summer while members peak in the early fall. After their respective peaks, both group's trip amounts decline as winter months approach. 
+Both members and casuals follow a similar seasonal pattern throughout the year in which the total number of trips for both members and casual riders begins to rise in the spring. For casual riders the peak of their trips occurs in the summer while members peak in the early fall. After their respective peaks, both group's trip amounts decline as winter months approach. 
 
 
 
 ![tripsperhour](https://github.com/user-attachments/assets/4d8304d2-cb87-4a54-bf11-8bd5d5dfc035)
 
-Here, the largest difference in behavior between the 2 groups thus far can be observed. Starting at around 6 AM annual member's total amount of trips begin to quickly increase, peaking at 8 AM. As the day progresses, both groups continue to steadily incline until about 5 PM where members hit another large spike, 5 PM represents the peak hour for total trips for both annual members and casual riders. After 5 PM there is a rapid decline for both groups. 
+Here, the largest difference in behavior between the 2 groups thus far can be observed. Starting at around 6 AM member's total amount of trips begin to quickly increase, peaking at 8 AM. As the day progresses, both groups continue to steadily incline until about 5 PM where members hit another large spike, 5 PM represents the peak hour for total trips for both members and casual riders. After 5 PM there is a rapid decline for both groups. 
 
 The observations above lead to a couple inferences:
 
@@ -131,12 +131,12 @@ Next, the average ride length was analyzed
 ![lenperhour](https://github.com/user-attachments/assets/fbc6b053-fe4c-47a0-aa4b-00ad40756f7b)
 
 Annual members show a consistent 10-15 minutes average ride length in all graphs while casual riders see a bit more fluctuation in ride length, casual rider's bike trips typically last 20-30 minutes.
-Regardless of what month, day, or hour it may be, casual riders have a higher average ride length than annual members, double in most cases.
+Regardless of what month, day, or hour it may be, casual riders have a higher average ride length than members, double in most cases.
 
 This could be for a handful of reasons:
 1) If annual members are using Cyclistic primarily to commute to and from work, then they must be close by (within 10-15 minutes). Anybody who is farther than 20 minutes probably uses a car to get to work, and anybody who lives closer than a 10 minute bike ride might walk to work.
 2) Casual Members ride length shoots up at around 10 AM and remains at nearly 30 minutes until 2 PM. This is typically the best weather during the day and when most people might be using a bike leisurely.
-3) The absence of a second spike in ride length later on in the day (to get home from work) for casual riders strengthens the prediction that casual riders are not using Cyclistic to get to work.
+3) The absence of a second spike in ride length later on in the day (to get home from work) for casual riders strengthens the idea that casual riders are not using Cyclistic to get to work.
 
 This data supports the previous hypothesis of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
 
@@ -144,14 +144,14 @@ The following visualizations show which bike stations were used most frequently 
 
 ![startinglocations](https://github.com/user-attachments/assets/268c7b98-d4b8-4328-b61f-1fc473f736ef)
 
-- Casual riders start their rides more frequently along the coast where a large concetration of Chicago's parks are as well as the beaches and piers.
+- Casual riders start their rides more frequently along the coast where a large concentration of Chicago's parks are as well as the beaches and piers.
 - Annual members start their bike trips deeper in Chicago's business districts.
 - Note the point at the University of Illinois at Chicago. This indicates that annual memberships might be popular with students and/or university professors & staff.
   
 ![ending locations](https://github.com/user-attachments/assets/206981b7-e523-44e6-b14d-2360a6da957a)
 
 - The ending station frequencies tell a similar story.
-- Note the 2 southern points for annual members in both charts. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
+- Note the 2 southern points for members in both charts. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
 
   Analysis Summary:
 
@@ -160,11 +160,11 @@ The following visualizations show which bike stations were used most frequently 
   | Takes longer rides on average, with the longest rides being around noon. | Shorter rides on average, very consistent ride length indicating that their journey does not typically change. |
   | Total number of rides peak during mid summer. | Total number of rides peak in the early fall. |
   | Rides gradually increase throughout the day | Rides spike at 8AM/5PM indicating, common work commuting hours. |
-  | Trips start and near beaches, piers, and parks. | Trips start and end deeper in the city of Chicago near businesses and restaurants. |
+  | Trips start and end near beaches, piers, and parks. | Trips start and end deeper in the city of Chicago near businesses and restaurants. |
   
 ## Recommendations
 
-After analyzing how annual members and casual riders differ, I have a few recommendations that might help in the overall objective: converting casual riders to the more profitable annual members.
+After analyzing how members and casual riders differ, I have a few recommendations that might help in the overall objective: converting casual riders to the more profitable members.
 
 1. Offer rewards for members who take rides longer than 30 minutes.
 2. Increase promotion during the warmer months (late spring, summer, and early fall).
