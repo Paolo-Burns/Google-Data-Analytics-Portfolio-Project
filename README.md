@@ -103,7 +103,7 @@ Now let's see *who* is using which bikes:
 
 ![Screenshot 2025-06-27 175410](https://github.com/user-attachments/assets/e462f4d9-1059-4bd7-b6e2-5272d64fa4fb)
 
-Across all bike types, there is a pretty even split between members and casuals, with members making up over half of classic and electric bike users. We can observe that there is no preference in bike type depending on the whether the rider is an annual member or casual rider. 
+Across all bike types, there is a pretty even split between members and casuals, with members making up over half of classic and electric bike users. It is observed that there is no preference in bike type depending on whether the rider is an annual member or casual rider. 
 
 The total number of trips in 2024:
 
@@ -132,7 +132,8 @@ Next, the average ride length was analyzed
 
 ![lenperhour](https://github.com/user-attachments/assets/fbc6b053-fe4c-47a0-aa4b-00ad40756f7b)
 
-Annual members show a consistent 10-15 minutes average ride length in all graphs while casual riders see a bit more fluctuation in ride length, casual rider's bike trips typically last 20-30 minutes.
+Annual members show a consistent 10-15 minutes average ride length in all 3 graphs while casual riders see a bit more fluctuation in ride length. Casual rider's bike trips typically last 20-30 minutes double that of member's trips in some cases.
+
 Regardless of what month, day, or hour it may be, casual riders have a higher average ride length than members, double in most cases.
 
 This could be for a handful of reasons:
