@@ -135,9 +135,9 @@ Regardless of what month, day, or hour it may be, casual riders have a higher av
 This could be for a handful of reasons:
 1) If annual members are using Cyclistic primarily to commute to and from work, then they must be close by (within 10-15 minutes). Anybody who is farther than 20 minutes probably uses a car to get to work, and anybody who lives closer than a 10 minute bike ride might walk to work.
 2) Casual Members ride length shoots up at around 10 AM and remains at nearly 30 minutes until 2 PM. This is typically the best weather during the day and when most people might be using a bike leisurely.
-3) The absence of a second spike in ride length later on in the day (to get home from work) for casual riders strengthens the theory that casual riders are not using Cyclistic to get to work.
+3) The absence of a second spike in ride length later on in the day (to get home from work) for casual riders strengthens the prediction that casual riders are not using Cyclistic to get to work.
 
-This data supports the previous theory of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
+This data supports the previous hypothesis of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
 
 The following visualizations show which bike stations were used most frequently by Cyclistic users.
 
@@ -150,7 +150,26 @@ The following visualizations show which bike stations were used most frequently 
 ![ending locations](https://github.com/user-attachments/assets/206981b7-e523-44e6-b14d-2360a6da957a)
 
 - The ending station frequencies tell a similar story.
-- Note the 2 southern points for annual members. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
+- Note the 2 southern points for annual members in both charts. These points represent stations that are adjacent to the University of Chicago Bookstore, University of Chicago Main Quadrangle, University of Chicago School of Law, and an ancient cultures museum.
 
   Analysis Summary:
+
+  |Casual|Member|
+  |:------:|:------:|
+  | Takes longer rides on average, with the longest rides being around noon. | Shorter rides on average, very consistent ride length indicating that their journey does not typically change. |
+  | Total number of rides peak during mid summer. | Total number of rides peak in the early fall. |
+  | Rides gradually increase throughout the day | Rides spike at 8AM/5PM indicating, common work commuting hours. |
+  | Trips start and near beaches, piers, and parks. | Trips start and end deeper in the city of Chicago near businesses and restaurants. |
   
+## Recommendations
+
+After analyzing how annual members and casual riders differ, I have a few recommendations that might help in the overall objective: converting casual riders to the more profitable annual members.
+
+1. Offer rewards for members who take rides longer than 30 minutes.
+2. Increase promotion during the warmer months (late spring, summer, and early fall).
+3. A cheaper membership option where these members can only access the popular stations near the parks, beaches, and other leisure areas with their membership.
+4. A seasonal membership option can also be utilized (e.g. a summer pass)
+
+
+
+
