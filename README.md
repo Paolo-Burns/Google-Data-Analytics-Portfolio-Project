@@ -141,7 +141,7 @@ This could be for a handful of reasons:
 2) Casual Members ride length shoots up at around 10 AM and remains at nearly 30 minutes until 2 PM. This is typically the best weather during the day and when most people might be using a bike leisurely.
 3) The absence of a second spike in ride length later on in the day (to get home from work) for casual riders strengthens the idea that casual riders are not using Cyclistic to get to work.
 
-This data supports the previous hypothesis of annual members using Cyclistic for daily job commute while casual riders use Cyclistic for pleasure and recreational purposes.
+This data supports the previous hypothesis of annual members using Cyclistic for daily work commute while casual riders use Cyclistic for pleasure and recreational purposes.
 
 The following visualizations show which bike stations were used most frequently by Cyclistic users.
 
