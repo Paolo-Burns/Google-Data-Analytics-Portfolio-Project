@@ -21,7 +21,7 @@ Moreno has asked three main questions that will guide the future marketing progr
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
-#### Moreno has assigned me the first question to answer: How do annual member and casual riders use Cyclistic bikes <ins>differently</ins>?
+Moreno has assigned me the first question to answer: **How do annual member and casual riders use Cyclistic bikes <ins>differently</ins>?**
 
 ## Preparing & Processing the Data
 
