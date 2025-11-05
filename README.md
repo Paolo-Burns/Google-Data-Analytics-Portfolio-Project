@@ -31,7 +31,7 @@ The Divvy Trip dataset contains 5.86 million rows of data. The amount of data be
 
 ### Combining the Data
 
-SQL Query: [Data Combining](https://github.com/Paolo-Burns/Google-Data-Analytics-Portfolio-Project/blob/main/01.%20Data%20Combining)
+SQL Query: [Data Combining](https://github.com/Paolo-Burns/Google-Data-Analytics-Portfolio-Project/blob/main/01.%20Data%20Combining.sql)
 
 12 different csv files that represent each of the 12 months in 2024 are combined using a CREATE TABLE with SELECT ALL & UNION ALL statements to create the '2024tripdata' table containing the company's data for the year of 2024.
 
