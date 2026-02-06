@@ -3,7 +3,7 @@
 ## Introduction
 
 #### 
-For this project, I am a junior data analyst working on the marketing analyst team at Cyclistic, a a fictional bike-share company in Chicago. I will be performing tasks that help the company answer business questions using the data provided. The data provided is actually data from a company called Divvy, however for the purpose of this project, the data will help answer Cyclistic's business questions. 
+For this project, I am a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. I will be performing tasks that help the company answer business questions using the data provided. The data provided is actually data from a company called Divvy, however for the purpose of this project, the data will help answer Cyclistic's business questions. 
 
 ## Background
 
